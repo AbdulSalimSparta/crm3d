@@ -15,9 +15,11 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class Registeradmin extends AppCompatActivity {
-    EditText remail,rpass;
+    EditText remail,rpass,namee;
     Button register,logreg;
     FirebaseAuth mAuth;
     @Override
@@ -28,6 +30,13 @@ public class Registeradmin extends AppCompatActivity {
         logreg= findViewById(R.id.logregbtn);
         remail=findViewById(R.id.remail);
         rpass=findViewById(R.id.rpass);
+        namee= findViewById(R.id.Adminname);
+
+        mAuth = FirebaseAuth.getInstance();
+
+
+
+        FirebaseDatabase database = FirebaseDatabase.getInstance("https://crm3d-247a2-default-rtdb.asia-southeast1.firebasedatabase.app/");
 
         mAuth = FirebaseAuth.getInstance();
         register.setOnClickListener(view->{
@@ -40,9 +49,14 @@ public class Registeradmin extends AppCompatActivity {
 
     }
 
-    private void createUser(){
+    public void createUser(){
+
+        FirebaseAuth mAuth;
+
+        String name = namee.getText().toString();
         String email = remail.getText().toString();
         String password =rpass.getText().toString();
+        mAuth = FirebaseAuth.getInstance();
 
         if (TextUtils.isEmpty(email)){
             remail.setError("E-mail cannot be Empty");
@@ -51,16 +65,29 @@ public class Registeradmin extends AppCompatActivity {
             rpass.setError("Password cannot be Empty");
             rpass.requestFocus();
         }else{
-            mAuth.createUserWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+            mAuth.createUserWithEmailAndPassword(email, password)
+                    .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                 @Override
                 public void onComplete(@NonNull Task<AuthResult> task) {
                     if(task.isSuccessful()){
+
+
+                        String userId = task.getResult().getUser().getUid();
+                        DatabaseReference staffDbRef;
+
+                        Admin admin = new Admin(name,email);
+
+                        staffDbRef= FirebaseDatabase.getInstance("https://crm3d-247a2-default-rtdb.asia-southeast1.firebasedatabase.app/").getReference("Admin/"+userId);
+
+                        staffDbRef.setValue(admin);
+
                         Toast.makeText(Registeradmin.this, "User register successfully", Toast.LENGTH_SHORT).show();
                         startActivity(new Intent(Registeradmin.this,mainlogin.class));
                     }
                     else{
                         Toast.makeText(Registeradmin.this, "Registration error :"+task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                     }
+
                 }
             });
         }
