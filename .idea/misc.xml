@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/salim/crm3d/app/src/main/res/drawable-v24/ic_banner_foreground.xml" value="0.1" />
+        <entry key="..\:/salim/crm3d/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/salim/crm3d/app/src/main/res/drawable-v24/rounded_button.xml" value="0.1" />
+        <entry key="..\:/salim/crm3d/app/src/main/res/drawable/edit.xml" value="0.1" />
+        <entry key="..\:/salim/crm3d/app/src/main/res/drawable/google.xml" value="0.1" />
+        <entry key="..\:/salim/crm3d/app/src/main/res/drawable/ic_google_icon.xml" value="0.1675" />
+        <entry key="..\:/salim/crm3d/app/src/main/res/drawable/ic_launcher_background.xml" value="0.162" />
+        <entry key="..\:/salim/crm3d/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.1735" />
+        <entry key="..\:/salim/crm3d/app/src/main/res/drawable/rounded_button.xml" value="0.2075" />
+        <entry key="..\:/salim/crm3d/app/src/main/res/font/file.xml" value="0.1" />
+        <entry key="..\:/salim/crm3d/app/src/main/res/font/poppins_bold.xml" value="0.23020833333333332" />
+        <entry key="..\:/salim/crm3d/app/src/main/res/layout/activity_addstaff.xml" value="0.22" />
+        <entry key="..\:/salim/crm3d/app/src/main/res/layout/activity_dashboard.xml" value="0.25" />
+        <entry key="..\:/salim/crm3d/app/src/main/res/layout/activity_login.xml" value="0.11510416666666666" />
+        <entry key="..\:/salim/crm3d/app/src/main/res/layout/activity_loginstaff.xml" value="0.1" />
+        <entry key="..\:/salim/crm3d/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/salim/crm3d/app/src/main/res/layout/activity_mainlogin.xml" value="0.14957264957264957" />
+        <entry key="..\:/salim/crm3d/app/src/main/res/layout/activity_managerlogin.xml" value="0.1" />
+        <entry key="..\:/salim/crm3d/app/src/main/res/layout/activity_newproduct.xml" value="0.22" />
+        <entry key="..\:/salim/crm3d/app/src/main/res/layout/activity_newsales.xml" value="0.18229166666666666" />
+        <entry key="..\:/salim/crm3d/app/src/main/res/layout/activity_registeradmin.xml" value="0.10009057971014493" />
+        <entry key="..\:/salim/crm3d/app/src/main/res/layout/activity_staff1stpage.xml" value="0.25" />
+        <entry key="..\:/salim/crm3d/app/src/main/res/layout/activity_staff_page.xml" value="0.22" />
+        <entry key="..\:/salim/crm3d/app/src/main/res/layout/activity_staffpage.xml" value="0.22" />
+        <entry key="..\:/salim/crm3d/app/src/main/res/layout/app_bar_dashboard.xml" value="0.1" />
+        <entry key="..\:/salim/crm3d/app/src/main/res/layout/app_bar_staff_page.xml" value="0.2" />
+        <entry key="..\:/salim/crm3d/app/src/main/res/layout/content_dashboard.xml" value="0.18" />
+        <entry key="..\:/salim/crm3d/app/src/main/res/layout/content_staff_page.xml" value="0.2" />
+        <entry key="..\:/salim/crm3d/app/src/main/res/layout/fragment_gallery.xml" value="0.25" />
+        <entry key="..\:/salim/crm3d/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/salim/crm3d/app/src/main/res/layout/fragment_newsales.xml" value="0.18229166666666666" />
+        <entry key="..\:/salim/crm3d/app/src/main/res/layout/fragment_slideshow.xml" value="0.1" />
+        <entry key="..\:/salim/crm3d/app/src/main/res/layout/fragment_tasks.xml" value="0.25" />
+        <entry key="..\:/salim/crm3d/app/src/main/res/layout/nav_header_dashboard.xml" value="0.25" />
+        <entry key="..\:/salim/crm3d/app/src/main/res/layout/nav_header_staff_page.xml" value="0.2" />
+        <entry key="..\:/salim/crm3d/app/src/main/res/layout/stafff.xml" value="0.18229166666666666" />
+        <entry key="..\:/salim/crm3d/app/src/main/res/menu/activity_main_drawer.xml" value="0.18229166666666666" />
+        <entry key="..\:/salim/crm3d/app/src/main/res/menu/dashboard.xml" value="0.25" />
+        <entry key="..\:/salim/crm3d/app/src/main/res/mipmap-anydpi-v26/ic_banner.xml" value="0.1" />
+        <entry key="..\:/salim/crm3d/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.22" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

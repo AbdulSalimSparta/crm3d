@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg"
+    tools:context=".Tasks">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <!-- Add staff  -->
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="59dp"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="0dp"
+                android:fontFamily="@font/poppinsblack"
+                android:text="Assign Task"
+                android:textColor="@color/white"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="100dp"
+                tools:layout_editor_absoluteY="244dp" />
+
+
+            <!-- name input -->
+            <EditText
+                android:id="@+id/taskname"
+                android:layout_width="303dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:autofillHints=""
+                android:background="@drawable/rounded_button"
+                android:backgroundTint="#FFFFFFFF"
+                android:drawableStart="@drawable/ic_briefcase_alt"
+                android:drawablePadding="5dp"
+                android:elevation="10dp"
+                android:ems="10"
+                android:fontFamily="@font/poppins"
+                android:hint="Task name"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:padding="7dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.6"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="266dp" />
+
+            <!-- Email input -->
+            <EditText
+                android:id="@+id/aassigninename"
+                android:layout_width="303dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_button"
+                android:backgroundTint="#FFFFFFFF"
+                android:drawableStart="@drawable/ic_baseline_account_circle_24"
+                android:drawablePadding="5dp"
+                android:elevation="10dp"
+                android:ems="10"
+                android:fontFamily="@font/poppins"
+                android:hint="Assigine name"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:padding="7dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.6"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="266dp" />
+
+
+
+
+            <!-- Qualification input -->
+            <EditText
+                android:id="@+id/deadline"
+                android:layout_width="303dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_button"
+                android:backgroundTint="#FFFFFFFF"
+                android:drawableStart="@drawable/ic_baseline_calendar_month_24"
+                android:drawablePadding="5dp"
+                android:elevation="10dp"
+                android:ems="10"
+                android:fontFamily="@font/poppins"
+                android:hint="Deadline"
+                android:inputType="date"
+                android:minHeight="48dp"
+                android:padding="7dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+
+                tools:layout_editor_absoluteY="266dp" />
+
+
+
+            <!-- Address input -->
+            <EditText
+                android:id="@+id/description"
+                android:layout_width="303dp"
+                android:layout_height="205dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_button"
+                android:backgroundTint="#FFFFFFFF"
+                android:drawableStart="@drawable/ic_plus_square"
+                android:drawablePadding="5dp"
+                android:elevation="10dp"
+                android:ems="10"
+                android:fontFamily="@font/poppins"
+                android:hint="Description"
+                android:inputType="text"
+                android:padding="7dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+
+                tools:layout_editor_absoluteY="266dp" />
+
+            <!-- submit button -->
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button"
+                android:layout_width="303dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button"
+                android:backgroundTint="@color/black"
+                android:fontFamily="@font/poppins"
+                android:text="Submit"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                tools:layout_editor_absoluteY="397dp" />
+
+            <!-- task details button -->
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/taskdetailsbutton"
+                android:layout_width="303dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button"
+                android:backgroundTint="@color/black"
+                android:fontFamily="@font/poppins"
+                android:text="Task details"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                tools:layout_editor_absoluteY="397dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</FrameLayout>

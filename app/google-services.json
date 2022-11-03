@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "32428792774",
+    "firebase_url": "https://crm3d-247a2-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "crm3d-247a2",
+    "storage_bucket": "crm3d-247a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32428792774:android:47d9b6f21f1a7bede470c7",
+        "android_client_info": {
+          "package_name": "com.example.crm3d"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "32428792774-5jsskbcvl66r1vi0gg7tekf2mm5j3cfv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDavI72d8Hqif9ZtBRdLgHj9CV7y0JHCx4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "32428792774-5jsskbcvl66r1vi0gg7tekf2mm5j3cfv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
