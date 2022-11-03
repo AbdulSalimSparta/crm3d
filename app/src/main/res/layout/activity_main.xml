@@ -28,11 +28,6 @@
             android:layout_gravity="center"
             android:orientation="vertical">
 
-            <!-- Admin -->
-            <!-- manager -->
-            <!-- staff -->
-
-
             <!-- Login button -->
             <TextView
                 android:id="@+id/textView5"
@@ -114,6 +109,23 @@
                 app:layout_constraintStart_toStartOf="parent"
                 tools:layout_editor_absoluteY="397dp" />
 
+            <!-- Lead team -->
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/leadteam"
+                android:layout_width="258dp"
+                android:layout_height="46dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_button"
+                android:backgroundTint="@color/black"
+                android:fontFamily="@font/poppins"
+                android:text="Lead team "
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="397dp" />
 
         </LinearLayout>
 
